@@ -1,0 +1,30 @@
+{
+  "name": "nextgen-ecommerce",
+  "version": "0.1.0",
+  "description": "At NextGen Electronics, we're immersed in the development of an innovative e-commerce project, with a mission to curate a diverse range of electronic products designed to elevate your digital lifestyle. We're your one-stop destination for cutting-edge mobile devices, laptops, desktop accessories, and networking peripherals. Our commitment to excellence is embedded in our technology stack. With React, Next.js, TypeScript, Prisma, and MongoDB as our foundation, we're crafting a secure, lightning-fast platform. For your peace of mind, we're implementing NextAuth, ensuring that your online shopping experience is as secure as it is seamless. Explore my diverse projects and contributions! 🚀",
+  "author": "Kaium Uddin, kaiumuddin <kaium.uddin2909@gamil.com>, Shahadat Hossain, shahadat3669 <shahadat3669@gamil.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.6"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6"
+  }
+}
