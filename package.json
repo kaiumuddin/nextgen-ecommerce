@@ -1,0 +1,47 @@
+{
+  "name": "nextgen-ecommerce",
+  "version": "0.1.0",
+  "description": "At NextGen Electronics, we're immersed in the development of an innovative e-commerce project, with a mission to curate a diverse range of electronic products designed to elevate your digital lifestyle. We're your one-stop destination for cutting-edge mobile devices, laptops, desktop accessories, and networking peripherals. Our commitment to excellence is embedded in our technology stack. With React, Next.js, TypeScript, Prisma, and MongoDB as our foundation, we're crafting a secure, lightning-fast platform. For your peace of mind, we're implementing NextAuth, ensuring that your online shopping experience is as secure as it is seamless. Explore my diverse projects and contributions! 🚀",
+  "author": "Kaium Uddin, kaiumuddin <kaium.uddin2909@gamil.com>, Shahadat Hossain, shahadat3669 <shahadat3669@gamil.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "13.5.6",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.2",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
