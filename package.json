@@ -11,7 +11,8 @@
     "lint": "next lint",
     "clean": "rimraf .next",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "check-types": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
     "mongoose": "^7.6.3",
